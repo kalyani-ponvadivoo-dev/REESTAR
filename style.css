@@ -1,4 +1,4 @@
-.section-one{
+.section-one,.section-three{
     background-color: black;
     color: white;
     text-align: center;
@@ -6,21 +6,23 @@
 }
 .section-two{
     margin-top: 20px;
-    margin-left:50px;
+    /* margin-left:100px; */
     display: flex;
+    justify-content: center;
     gap: 5px;
-    align-items: flex-start;
-    text-align: center;
-     
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap; */
+
+    /* text-align: center;   */
     
 }
-.section-two__recipe1,.section-two__recipe2{
+.section-two__recipe1,.section-two__recipe2,.section-two__recipe3,.section-two__recipe4{
     /* display: inline-block; */
      width: 220px;
     border: 3px solid black;
     text-align: center;
 }
-.section-two__image1,.section-two__image2{
+.section-two__image1,.section-two__image2,.section-two__image3,.section-two__image4{
     width :195px;
     height: 300px;
     /* border : solid black 3px; */
@@ -28,4 +30,24 @@
 .btn{
     background-color: black;
     color: white;
+}
+
+/* .section-three{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+} */
+/* .section_three__contactus input[text]   {
+    justify-content: center;
+} */
+.section_three__contactus {
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn_send{
+    background-color: yellow;
+    color: black;
+    padding-left: 150px;
+    padding-right: 150px;
 }
