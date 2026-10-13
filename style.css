@@ -1,0 +1,31 @@
+.section-one{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+}
+.section-two{
+    margin-top: 20px;
+    margin-left:50px;
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+    text-align: center;
+     
+    
+}
+.section-two__recipe1,.section-two__recipe2{
+    /* display: inline-block; */
+     width: 220px;
+    border: 3px solid black;
+    text-align: center;
+}
+.section-two__image1,.section-two__image2{
+    width :195px;
+    height: 300px;
+    /* border : solid black 3px; */
+}
+.btn{
+    background-color: black;
+    color: white;
+}
